@@ -61,6 +61,8 @@ In fact, let's do something along those lines now (but more fun). Try replacing 
 
 Going forward, we will take a deeper look into A-Frame and explore more interactive uses of the framework!
 
+**NOTE:** Now is a good time to allow students to clone down the sample code repository and explore it themselves before moving forward.
+
 [rejected-chrome-boi]: "https://en.wikipedia.org/wiki/Draft:Chrome_Boi"
 [ecs]: "https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system"
 [a-frame-intro]: "https://aframe.io/docs/0.8.0/introduction/"
