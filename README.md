@@ -1,6 +1,7 @@
 # A-Frame
 
-**NOTE:** This lecture makes use of example code located [here][example]. Make sure you have it open and ready to display, and that you are familiar with the code.  
+**NOTE:** This lecture makes use of example code located in `index.html`. Make sure you have it open and ready to display, and that you are familiar with the code. In order to display our A-Frame examples in action to the class, we can't simply open the `html` file with Chrome like we normally do. In order for A-Frame to correctly use assets, it requires a server. If you are showing this using the Learn IDE (i.e. the in-browser IDE) you can simply enter `httpserver` in the project directory. This will provide you with a url that looks something along the lines of `165.227.81.218:51804`, which you can navigate to in the browser. If you are not using the Learn.co IDE and instead displaying examples locally, we recommend you use [`live-server`][live-server], which wraps [`http-server`][http-server]. You will need to install both ([`http-server`][http-server] followed by [`live-server`][live-server]). Following, bash should recognize the command `live-server` and do the trick!
+
 
 ## Objectives
 
@@ -16,7 +17,7 @@ This lecture seeks to introduce A-Frame and expose students to basic usage of it
 
 **NOTE:** Students will likely have questions on Entity-Component-Systems. We want to provide a high level overview without getting too in the weeds. It is important to take a moment to familiarize yourself with ECS (we recommend the wiki linked below for additional reading). This will help you field those questions with confidence and determine the level of complexity/best way to provide an explanation. Try to ensure student's are not convoluting A-Frame and ECS directly (A-Frame is a framework/library of existing code that leverages ECS _concepts_ in architectural/pattern decisions)
 
-**NOTE:** A-Frame is a significantly sized, and powerful project (not to mention an absolute blast!). The complexity of the code powering A-Frame projects behind the scenes is significant compared to what students have been doing so far. We want to keep them focused on high level interaction and having fun with the framework, instead of getting overwhelmed in the details. We will take a "show and tell" approach in the A-Frame lectures.
+**NOTE:** A-Frame is a significantly sized, and powerful project (not to mention an absolute blast!). The complexity of the code powering A-Frame projects behind the scenes is significant compared to what students have been doing so far. We want to keep them focused on high level interaction and having fun with the framework, instead of getting overwhelmed in the details. We will take a "show and tell" approach in the A-Frame lectures and code.
 
 
 ## Introducing A-Frame
@@ -61,9 +62,11 @@ In fact, let's do something along those lines now (but more fun). Try replacing 
 
 Going forward, we will take a deeper look into A-Frame and explore more interactive uses of the framework!
 
-**NOTE:** Now is a good time to allow students to clone down the sample code repository and explore it themselves before moving forward.
+**NOTE:** Now is a good time to allow students to clone down the first A-Frame lab: kwk-l2-what-is-a-frame, and explore it themselves before moving forward.
 
 [rejected-chrome-boi]: "https://en.wikipedia.org/wiki/Draft:Chrome_Boi"
 [ecs]: "https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system"
 [a-frame-intro]: "https://aframe.io/docs/0.8.0/introduction/"
 [example]: https://github.com/learn-co-curriculum/kwk-level-2-a-frame-lecture-code
+[http-server]: https://www.npmjs.com/package/http-server
+[live-server]: https://github.com/tapio/live-server
