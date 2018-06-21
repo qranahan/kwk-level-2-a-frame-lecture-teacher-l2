@@ -27,7 +27,7 @@ This lecture seeks to introduce A-Frame and expose students to basic usage of it
   - **Component**: an aspect of an object (i.e. color, position, velocity)
   - **System**: the overarching environment that encompasses entities (i.e. the scene itself, which manages the rendering and animations of entities)
 
-A-Frame is a large library with months of material to master. Consequentially, we don't have time to explore every aspect of it. As a crash course, we will introduce you to some of the basic building blocks with the intention of getting you creating your own custom content quickly.  
+A-Frame is a large library with months of material to master. Consequentially, we don't have time to explore every aspect of it. As a crash course, we will introduce you to some of the basic building blocks with the intention of getting you creating your own custom content quickly.
 
 ## A Simple Scene
 
@@ -37,9 +37,9 @@ In order to make use of the A-Frame library, we are going to be requiring it via
   - Via HTML **attributes**, we are defining A-Frame **components** (position, geometry, color)
   - Via a wrapper `<a-scene>` tag, we are defining an A-Frame **system**
 
-Go ahead and start up your local server and take a look at what renders in the browser. 
+Go ahead and start up your local server and take a look at what renders in the browser.
 
-You should see an open 3D world and a visual representation of each a-tag within the scene. 
+You should see an open 3D world and a visual representation of each a-tag within the scene.
 
 **NOTE:** Take a moment to match up the HTML with the shapes displaying in the browser.
 
@@ -68,5 +68,6 @@ Going forward, we will take a deeper look into A-Frame and explore more interact
 [ecs]: "https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system"
 [a-frame-intro]: "https://aframe.io/docs/0.8.0/introduction/"
 [example]: https://github.com/learn-co-curriculum/kwk-level-2-a-frame-lecture-code
+Example is located in Week 2 Instructor Materials -> Day 7 -> For Lecture: A Frame Lecture Code
 [http-server]: https://www.npmjs.com/package/http-server
 [live-server]: https://github.com/tapio/live-server
